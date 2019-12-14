@@ -1,5 +1,5 @@
 {% set name = "kconfig" %}
-{% set version = "5.64.0" %}
+{% set version = "5.65.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kconfig-{{ version }}.tar.xz
-  sha256: 112c1db9f038dbacf357d08645c83ca103d8c3e7fb0c880ac16f665fdf7d9157
+  sha256: 8dfa064effdf559e1179e9d7e5ec12ff9d79fcfef1859bd1793557261e94a6ed
 
 build:
   number: 0
