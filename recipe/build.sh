@@ -31,6 +31,7 @@ bad_tests="${bad_tests}|test_translation_qt"
 bad_tests="${bad_tests}|test_translation_kde"
 bad_tests="${bad_tests}|test_translation_kde_domain"
 bad_tests="${bad_tests}|test_fileextensions"
+bad_tests="${bad_tests}|test_emptyentries"
 ctest -E "${bad_tests}"
 make install
 popd
