@@ -33,6 +33,8 @@ bad_tests="${bad_tests}|test_translation_kde_domain"
 bad_tests="${bad_tests}|test_fileextensions"
 bad_tests="${bad_tests}|test_emptyentries"
 bad_tests="${bad_tests}|test_subgroups"
+bad_tests="${bad_tests}|test_param_minmax"
+bad_tests="${bad_tests}|test_properties_minmax"
 ctest -E "${bad_tests}"
 make install
 popd
