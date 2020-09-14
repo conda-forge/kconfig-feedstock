@@ -40,9 +40,18 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kconfig/html/index.html
-  license: LGPL-v2.1-or-later
+  license: BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL AND MIT
   license_family: GPL
-  license_file: COPYING.LIB
+  license_file:
+    - LICENSES/BSD-2-Clause.txt
+    - LICENSES/BSD-3-Clause.txt
+    - LICENSES/GPL-2.0-or-later.txt
+    - LICENSES/LGPL-2.0-only.txt
+    - LICENSES/LGPL-2.0-or-later.txt
+    - LICENSES/LGPL-2.1-only.txt
+    - LICENSES/LGPL-3.0-only.txt
+    - LICENSES/LicenseRef-KDE-Accepted-LGPL.txt
+    - LICENSES/MIT.txt
   summary: Persistent platform-independent application settings.
   description: |
     KConfig provides an advanced configuration system. It is made of two parts:
