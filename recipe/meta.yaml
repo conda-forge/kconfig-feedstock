@@ -41,7 +41,6 @@ test:
 about:
   home: https://api.kde.org/frameworks/kconfig/html/index.html
   license: BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL AND MIT
-  license_family: GPL
   license_file:
     - LICENSES/BSD-2-Clause.txt
     - LICENSES/BSD-3-Clause.txt
