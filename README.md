@@ -3,11 +3,13 @@ About kconfig
 
 Home: https://api.kde.org/frameworks/kconfig/html/index.html
 
-Package license: LGPL-v2.1-or-later
+Package license: BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL AND MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kconfig-feedstock/blob/master/LICENSE.txt)
 
 Summary: Persistent platform-independent application settings.
+
+Development: https://cgit.kde.org/kconfig.git/tree
 
 KConfig provides an advanced configuration system. It is made of two parts:
 KConfigCore and KConfigGui.
@@ -31,10 +33,10 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64</td>
+              <td>linux_64_c_compiler_version7cxx_compiler_version7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8472&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kconfig-feedstock?branchName=master&jobName=linux&configuration=linux_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kconfig-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7cxx_compiler_version7" alt="variant">
                 </a>
               </td>
             </tr>
