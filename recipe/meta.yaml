@@ -11,7 +11,7 @@ source:
   sha256: 153d3ed114954594b0dcc00e1317483609649c064203e6eb8b110686dbaba686
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('kconfig', max_pin='x.x') }}
@@ -29,7 +29,7 @@ requirements:
     - {{ cdt('libxdamage') }}  # [linux]
     - {{ cdt('libxxf86vm') }}  # [linux]
   host:
-    - qt >=5.11.0
+    - qt-main >=5.11.0
     - mesalib
     - xorg-libxfixes  # [linux]
     - xorg-libxext
